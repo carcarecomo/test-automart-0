@@ -8,6 +8,7 @@
     <link href="../css/main.css" rel="stylesheet" type="text/css">
     <link href="../css/signin.css" rel="stylesheet" type="text/css">
     <link href="../css/signup.css" rel="stylesheet" type="text/css">
+    <script src="../js/signup.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Create Account</title>
 </head>
@@ -27,12 +28,12 @@
                     <h2>Create account</h2>
                 </div>
                 <span class="label-field1i">
-                    <label for="email"><b>First Name</b></label>
-                    <input type="email" name="email" placeholder="your first name">
+                    <label for="firstName"><b>First Name</b></label>
+                    <input type="text" name="firstName" placeholder="your first name">
                 </span><br>
                 <span class="label-field1ii">
-                    <label for="email"><b>Last Name</b></label>
-                    <input type="email" name="email" placeholder="your last name">
+                    <label for="lastName"><b>Last Name</b></label>
+                    <input type="text" name="lastName" placeholder="your last name" required>
                 </span><br>
                 <span class="label-field1">
                     <label for="email"><b>Email</b></label>
@@ -40,14 +41,14 @@
                 </span><br>
                 <span class="label-field2">
                     <label for="password"><b>Password</b></label>
-                    <input type="password" name="password" id="">
+                    <input type="password" name="password" id="pword" placeholder="password">
                 </span><br>
                 <span class="label-field2i">
-                    <label for="password"><b>Re-enter password</b></label>
-                    <input type="password" name="confirm-password" id="">
+                    <label for="confirm-password"><b>Re-enter password</b></label><label for="" id='message'></label>
+                    <input type="password" name="confirm-password" placeholder="re-enter password" id="pwordc">
                 </span><br>
                 <span class="label-field3">
-                    <a href="" class="button">Create account </a>
+                    <a href="" class="button" >Create account </a>
                 </span>
 
                 <span class="label-field4">

@@ -31,3 +31,8 @@
 .label-field2i{
     grid-area: field_label_2i;
 }
+
+#messsage {
+    color: red;
+    text-align: right;
+}

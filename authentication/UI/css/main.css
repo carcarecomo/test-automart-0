@@ -171,7 +171,7 @@ img.resize {
 .user-account {
     color: white;
     grid-area: user;
-    display:grid;
+    display: grid;
     grid-template-areas: 
         "signin signup"
         "my_automart my_automart"
