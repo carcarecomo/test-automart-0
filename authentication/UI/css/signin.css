@@ -1,3 +1,4 @@
+
 .header-user-form {
     grid-area: header;
     display: grid;
@@ -122,16 +123,7 @@ hr{
 }
 
 .container {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows:  1fr  4fr 1fr;
-    grid-gap: 0px;
     grid-template-areas:
         "header header"
         "content content"

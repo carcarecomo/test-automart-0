@@ -25,30 +25,6 @@ img.resize {
     max-height: 75%;
     text-justify: center;
 }
-
-.footer{
-    grid-area: footer;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 5fr 1fr;
-    grid-template-areas: 
-        ". footer_menu ."
-        "bottom bottom bottom"
-}
-
-.footer-menu {
-    grid-area: footer_menu;
-    padding-top: 20px;
-    align-self: center;
-}
-
-.bottom-menu{
-    grid-area: bottom;
-    background: #048EC9;
-    text-align: center;
-    align-self: center;
-}
-
 .container {
     width: 100vw;
     position: relative;
@@ -88,6 +64,30 @@ img.resize {
         "car_by_prices"
         "."
 }
+
+.footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas: 
+        ". footer_menu ."
+        "bottom bottom bottom"
+}
+
+.footer-menu {
+    grid-area: footer_menu;
+    padding-top: 20px;
+    align-self: center;
+}
+
+.bottom-menu{
+    grid-area: bottom;
+    background: #048EC9;
+    text-align: center;
+    align-self: center;
+}
+
 
 .available-types {
     grid-area: available_types;
