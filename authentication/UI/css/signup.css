@@ -54,3 +54,8 @@
     display: inline; 
     float: none;
 }
+
+select#country {
+    width: 100%
+    ;margin: 0px;
+}
