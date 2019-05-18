@@ -110,6 +110,14 @@ img.resize {
     background: whitesmoke;
 }
 
+#logo{
+    display: block; 
+    margin-left: 25%; 
+    margin-right: 25%; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
 .logo {
     grid-area: logo;
     background-color: white;
@@ -125,11 +133,15 @@ img.resize {
     grid-area: car_form;
 }
 
+#search{
+    display:block;
+    margin: 5% 35% 5% 35%;
+}
+
 .search{
     text-align: center;
     grid-area: search;
     background: rgb(57, 184, 238);
-   
     color: white;
     border-radius:0px 5px 5px 0px;
 }
@@ -189,7 +201,6 @@ img.resize {
     grid-area: usericon;
     background: white;
 }
-
 
 
 
