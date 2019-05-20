@@ -33,14 +33,14 @@ img.resize {
     margin-left: -50vw;
     margin-right: -50vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows:  5.5fr 13fr 60fr 4fr;
     grid-gap: 0px;
     grid-template-areas:
-        "header header"
-        "advert advert"
-        "content content"
-        "footer footer"
+        "header"
+        "advert"
+        "content"
+        "footer"
 }
 
 .advert {

@@ -1,10 +1,10 @@
 .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows:  1fr  5.7fr 1fr;
 }
 
 .user-form {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr;
     grid-template-areas: 
         ". title ."
         ". field_label_1i ."
